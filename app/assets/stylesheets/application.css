@@ -65,7 +65,8 @@ th {
 }
 tr {
     display: table-row;
-    vertical-align: inherit;
+    vertical-ali
+    gn: inherit;
     border-color: inherit;
 }
 td {

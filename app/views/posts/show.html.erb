@@ -1,11 +1,12 @@
 <%= h(flash.now[:notice]) %>
 
+
  <h2>title:</h2>
 <p><%= @post.title %></p>
 
  <h2>body:</h2>
 <p><%= @post.body %></p>
 
-<%= link_to "Edit", edit_post_path %>
+<%= link_to "Edit", edit_post_path(@post.id), class: "edit_#{@post.id}" %>
 <%= link_to "Back", posts_path %>
 

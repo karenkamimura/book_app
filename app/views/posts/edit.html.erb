@@ -10,4 +10,4 @@
 <% end %>
 
 <%= link_to "Show", post_path(@post.id), class: "show_#{@post.id}" %>
-<%= link_to "Back", posts_path %>
+<%= link_to "Back", posts_path(@post.id), class: "back" %>
